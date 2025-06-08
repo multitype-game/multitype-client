@@ -1,11 +1,12 @@
 import './App.css'
+import Game from './components/Game'
 
 function App() {
   return (
     <>
       <h1>Multitype Client</h1>
       <p>
-        The game will be here soon!
+        <Game />
       </p>
     </>
   )
